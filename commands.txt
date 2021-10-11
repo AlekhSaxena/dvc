@@ -9,3 +9,9 @@ pip install dvc
 git init
 dvc init
 dvc repro
+
+git push
+
+dvc dag
+
+git add . && git commit -m "second commit" && git push origin main
